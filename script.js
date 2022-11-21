@@ -38,8 +38,8 @@ video.addEventListener('play', () => {
       console.log(box.x);
 
        // 얼굴 좌표값 인식후 페이지 넘김
-      if(box.x < 0.15 ){
-        // console.log("합격");
+      if(box.x < 0.3 ){
+        console.log("합격");
         location.href="https://yeso.spaceedu.co.kr/html/index_AI.html"
       }
   })
