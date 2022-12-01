@@ -36,13 +36,19 @@
       display: none;
     }
     video {position: fixed; top: 0px;  min-height: 100%; width: 100%; height: auto; z-index: -1; overflow: hidden;}
+    .test{
+      font-size: 10vw;
+      color: red;
+    }
   </style>
 </head>
 <body>
 
     <video id="Face_video" width="1x" height="1px" autoplay muted></video>
     <video id="video" autoplay="autoplay" loop="true" muted="muted" src="./video/intro2.mp4"></video>
-
+    <div class="test">
+      Test1
+    </div>
 </body>
 <script>
   document.getElementById('video').play();
